@@ -13,12 +13,15 @@ html {
     font-size: 62.5%;
 }
 
-
-
 .wrapper {
-    // max-width: 1140px;
-    width: 95%;
+    max-width:  1920px;
+    width: 90%;
     margin: 0 auto;
+}
+
+.inner-wrapper{
+    margin: 0 auto;
+    width: 75%;
 }
 
 li{
@@ -69,7 +72,7 @@ line-height: 24px;
     font-family: Muli;
 font-style: normal;
 font-weight: 800;
-font-size: 22px;
+font-size: 30px;
 line-height: 24px;
 color: #2D25C8;;
 }
@@ -78,34 +81,33 @@ color: #2D25C8;;
 
 /* start of header content */
 .header-content{
-    
+    justify-content: flex-end;
     height: 70vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding-left: 40px;
+    padding-top: 40px; 
 }
 
 .header-content h1{
     font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 40px;
+font-size: 48px;
 line-height: 24px;
 color: #1E2B38;
 }
 
 .header-intro{
-    
     width: 50%;
     
 }
 
 .header-intro p{
+    
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 18px;
+font-size: 25px;
 line-height: 26px;
 color: #8B90A1;
 }
@@ -123,12 +125,9 @@ width: 250px;
 padding-top: 10px;
 }
 
-.header-real-content{
-    
-    width: 30%;
-    height: 50vh;
-    margin-left: 20px;
-    background: cornflowerblue;
+
+.header-content img{
+    width: 40%;
 }
 
 /* end of header content */

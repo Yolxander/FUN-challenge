@@ -235,8 +235,14 @@ html {
 }
 
 .wrapper {
-  width: 95%;
+  max-width: 1920px;
+  width: 90%;
   margin: 0 auto;
+}
+
+.inner-wrapper {
+  margin: 0 auto;
+  width: 75%;
 }
 
 li {
@@ -287,7 +293,7 @@ header {
   font-family: Muli;
   font-style: normal;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 24px;
   color: #2D25C8;
 }
@@ -295,18 +301,18 @@ header {
 /* end of header top */
 /* start of header content */
 .header-content {
+  justify-content: flex-end;
   height: 70vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding-left: 40px;
+  padding-top: 40px;
 }
 
 .header-content h1 {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 24px;
   color: #1E2B38;
 }
@@ -319,7 +325,7 @@ header {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 25px;
   line-height: 26px;
   color: #8B90A1;
 }
@@ -337,13 +343,96 @@ header {
   padding-top: 10px;
 }
 
-.header-real-content {
-  width: 30%;
-  height: 50vh;
-  margin-left: 20px;
-  background: cornflowerblue;
+.header-content img {
+  width: 40%;
 }
 
 /* end of header content */
+.about {
+  height: 80vh;
+  background: #f2f2f2;
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-content img {
+  margin: 10px;
+  height: 75vh;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: 70px;
+}
+
+.about-text h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  color: #1e2b38;
+}
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 26px;
+}
+
+.text p {
+  color: #8B90A1;
+}
+
+.feature {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature h2 {
+  text-align: center;
+  font-size: 40px;
+  width: 60%;
+}
+
+.feature-icons {
+  margin-top: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  width: 300px;
+  font-size: 20px;
+}
+
+.icon p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: #8b90a1;
+}
+
+.icon h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+}
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,43 @@
+.feature {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.feature h2 {
+	text-align: center;
+	font-size: 40px;
+	width: 60%;
+}
+
+.feature-icons {
+	margin-top: 40px;
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icon {
+	width: 300px;
+	font-size: 20px;
+}
+
+.icon p {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: left;
+	color: #8b90a1;
+}
+
+.icon h2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 48px;
+}
