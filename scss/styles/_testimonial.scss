@@ -21,7 +21,8 @@
 
 .testimonial-content {
 	background: white;
-	width: 33vw;
+	width: 30vw;
+	padding: 10px;
 }
 
 .person {
@@ -36,42 +37,39 @@
 	font-family: 'Open Sans';
 	font-style: italic;
 	font-weight: 200;
-	font-size: 30px;
-	
+	font-size: 20px;
 }
 
 .person img {
-    width: 45px;
+	width: 45px;
+	position: absolute;
 	align-self: flex-start;
-	transform: translate(100%, 100%);
 }
 
 .identity {
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
-	
-    width: 24vw;
-    height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	width: 24vw;
+	height: 50px;
 }
 
 .identity h3 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .identity h4 {
-    margin-top: -15px ;
+	margin-top: -15px;
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: normal;
-    font-size: 20px;
-    color: #878C9C;
+	font-size: 20px;
+	color: #878c9c;
 }
 
 .identity img {
-    width: 70px;
+	width: 40px;
 	transform: none;
 	align-self: center;
+	position: relative;
 }
-
-

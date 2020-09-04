@@ -8,20 +8,19 @@
 
 .feature h2 {
 	text-align: center;
-	font-size: 40px;
-	width: 1000px;
+	font-size: 30px;
+	width: 55vw;
 }
 
 .feature-icons {
-
 	margin-top: 40px;
-	width: 70%;
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
 }
 
 .icon {
-	width: 300px;
+	width: 250px;
 	font-size: 20px;
 }
 
@@ -29,8 +28,8 @@
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: normal;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 15px;
+	line-height: 20px;
 	text-align: left;
 	color: #8b90a1;
 }
@@ -39,6 +38,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 48px;
+	color: #8b90a1;
 }

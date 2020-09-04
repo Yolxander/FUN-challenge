@@ -14,7 +14,7 @@ html {
 }
 
 .wrapper {
-    max-width:  1920px;
+    // max-width:  1140px;
     width: 90%;
     margin: 0 auto;
 }
@@ -61,11 +61,11 @@ line-height: 24px;
 
 .logo{
     border: 3px solid #2D25C8;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 15px;
     padding-right: 35px ;     
     padding-left: 35px;
-    height: 80px;
+    height: 50px;
 }
 
 .logo a{
@@ -89,17 +89,16 @@ color: #2D25C8;;
 }
 
 .header-content h1{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 500;
-font-size: 50px;
+font-size: 48px;
 line-height: 24px;
 color: #1E2B38;
 }
 
 .header-intro{
     width: 50%;
-    
 }
 
 .header-intro p{
@@ -107,7 +106,7 @@ color: #1E2B38;
     font-family: 'Open Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 25px;
+font-size: 15px;
 line-height: 35px;
 color: #8B90A1;
 }
@@ -118,16 +117,16 @@ border-radius: 32px;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 25px;
-line-height: 60px;
+font-size: 15px;
+line-height: 50px;
 color: #FFFFFF;
-width: 280px;
+width: 250px;
 padding-top: 10px;
 }
 
 
 .header-content img{
-    width: 40%;
+    width: 35%;
 }
 
 /* end of header content */

@@ -1,0 +1,19 @@
+@media (max-width: 878px) {
+	.projects-content {
+		width: 100%;
+	}
+	.projects-content img {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+@media (max-width: 878px) {
+	.projects-content img {
+		width: 50px;
+		height: 50px;
+    }
+    .projects{
+        justify-content: flex-start;
+    }
+}

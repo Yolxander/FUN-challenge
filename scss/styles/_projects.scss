@@ -20,19 +20,18 @@
 	justify-content: center;
 	align-items: center;
 	height: 40vh;
-	width: 60%;
+    width: 70%;
 }
 
 .projects-content img {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-bottom: 40px;
 }
 
 .projects-bottom {
-	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
@@ -45,7 +44,7 @@
 }
 
 .projects-bottom img {
-	width: 30px;
+	width: 25px;
 	background: transparent;
 	position: absolute;
 	margin-right: 120px;
