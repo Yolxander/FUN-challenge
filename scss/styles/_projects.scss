@@ -1,0 +1,52 @@
+.projects {
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects h2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.projects-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 40vh;
+	width: 60%;
+}
+
+.projects-content img {
+	width: 150px;
+	height: 150px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+
+.projects-bottom {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.projects-bottom p {
+    font-size: 20px;
+    color: #8B90A1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-bottom img {
+	width: 30px;
+	background: transparent;
+	position: absolute;
+	margin-right: 120px;
+}
