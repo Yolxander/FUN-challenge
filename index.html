@@ -8,8 +8,11 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
 			rel="stylesheet"
-        />
-        <script src="https://kit.fontawesome.com/299c324ddc.js" crossorigin="anonymous"></script>
+		/>
+		<script
+			src="https://kit.fontawesome.com/299c324ddc.js"
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<header>
@@ -35,7 +38,7 @@
 						design review teams alike away from the design, and insisting on
 						always.
 					</p>
-					<button>Hire Us Now</button>
+					<button id="myBtn">Hire Us Now</button>
 				</div>
 				<img alt="dummy-header" src="./img/dummy1.png" />
 			</div>
@@ -87,9 +90,7 @@
 				Like Andrew, We don’t your step-back from your success
 				<span style="color: blue">Need Quality? have Time? Hire Us</span>
 			</h2>
-            <p><span style="font-size:30px ;
-                color: #8b90a1;
-                ">For</span></p>
+			<p><span style="font-size: 30px; color: #8b90a1">For</span></p>
 			<div class="feature-icons">
 				<div class="icon">
 					<img alt="pie graph" src="./img/pie-graph.png" />
@@ -199,25 +200,109 @@
 				<img alt="small be and ball" src="./img/be.png" />
 				<p>Don’t forget to check us on &nbsp Dribbble &nbsp Behance</p>
 			</div>
-        </section>
-        <footer>
-            <diV class="footer-content">
-                <div class="question-box">
-                    <h2>Forget Andrew Experience, Wanna Jenny’s experience?</h2>
-                    <button>Hire Us Now</button>
-                </div>
-                <div class="footer-bottom"> 
-                    <p>
-                        All Rights Reserved ©Simon. Designed by DigitalHeaps
-                    </p>
-                    <div class="social">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </div>
-                </div>
-            </diV>
-        </footer>
+		</section>
+		<footer>
+			<div class="footer-content">
+				<div class="question-box">
+					<h2>Forget Andrew Experience, Wanna Jenny’s experience?</h2>
+					<button id="myBtn">Hire Us Now</button>
+				</div>
+				<div class="footer-bottom">
+					<p>All Rights Reserved ©Simon. Designed by DigitalHeaps</p>
+					<div class="social">
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					</div>
+				</div>
+			</div>
+			<div id="myModal" class="modal">
+				<!-- Modal content -->
+
+				<div class="modal-content container">
+					<a>
+						<div class="close">&times;</div>
+					</a>
+					<div class="title">
+						<h2>Get in Touch</h2>
+					</div>
+					<form action="action_page">
+						<div class="row">
+							<div class="Name">
+								<label for="fname">Name</label>
+							</div>
+							<div>
+								<input
+									type="text"
+									id="fname"
+									name="name"
+									placeholder="Ursula"
+								/>
+							</div>
+						</div>
+						<div class="email">
+							<div>
+								<label for="email">Email ID</label>
+							</div>
+							<div>
+								<input
+									type="text"
+									id="email"
+									name="email"
+									placeholder="support@ursula1288.com"
+								/>
+							</div>
+						</div>
+						<div class="subject">
+							<div class="col-25">
+								<label for="subject">Subject*</label>
+							</div>
+							<div class="col-75">
+								<input
+									type="text"
+									id="subject"
+									name="subject"
+									placeholder="Ursula"
+								/>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-25">
+								<label for="description">Description</label>
+							</div>
+							<div class="col-75">
+								<textarea
+									id="description"
+									name="description"
+									placeholder="Enter the text"
+									style="height: 70px"
+								></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<input type="submit" value="Send Message" />
+						</div>
+					</form>
+				</div>
+			</div>
+		</footer>
+		<script>
+			// Open pop up form
+			var modal = document.getElementById('myModal');
+			var btn = document.getElementById('myBtn');
+			var span = document.getElementsByClassName('close')[0];
+			btn.onclick = function () {
+				modal.style.display = 'block';
+			};
+			span.onclick = function () {
+				modal.style.display = 'none';
+			};
+			window.onclick = function (event) {
+				if (event.target == modal) {
+					modal.style.display = 'none';
+				}
+			};
+		</script>
 	</body>
 </html>
