@@ -652,7 +652,7 @@ footer {
 
 /* The Modal */
 .modal {
-  visibility: hidden;
+  display: none;
   position: fixed;
   z-index: 1;
   padding-top: 100px;
@@ -663,6 +663,9 @@ footer {
   overflow: auto;
   background-color: black;
   background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Modal Content */
